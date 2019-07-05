@@ -1,0 +1,58 @@
+@import './util.scss';
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, ul, li, input, span, a, i, table, tr, td , nav , section , header{
+  margin: 0px;
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-size: $browser-default-font-size;
+
+}
+body{
+  overflow: auto;
+  display: block;
+  background:#0e0e0f;
+
+}
+img {
+  border: none;
+  vertical-align: top;
+   }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+input, textarea, button {
+  outline: none;
+ }
+
+textarea {
+  resize: none;
+  overflow: hidden; }
+
+li {
+  list-style: none; }
+
+table {
+  border: none;
+  border-collapse: collapse; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear {
+  zoom: 1; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
